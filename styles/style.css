@@ -19,7 +19,7 @@ body {
 	margin: 5px;
 	height: 175px;
 	width: 120px;
-	transition: top 1s linear, left 1s linear;
+	transition: top 300ms linear, left 300ms linear;
 }
 .card .number {
 	position: absolute;
