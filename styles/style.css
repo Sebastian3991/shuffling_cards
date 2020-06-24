@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	border-radius: 5px;
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin: 5px;
+	height: 350px;
+	width: 240px;
+}
+.card .number {
+	position: absolute;
+	font-size: 4rem;
+}
+.card .number.top {
+	top: 10px;
+	left: 10px;
+}
+.card .number.bottom {
+	bottom: 10px;
+	right: 10px;
+}
+.card .suit {
+	font-size: 7rem;
+}
+.card.red {
+	color: red;
+}
